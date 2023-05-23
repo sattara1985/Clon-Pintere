@@ -124,11 +124,14 @@
 }
 .card_small{
     grid-row-end: span 26;
+    
 }
 .card_small:hover{
+   
     grid-row-end: span 26;
     box-shadow: 5px 3px 20px;
     cursor: pointer;
+  
 
 }
 .card_medium{
@@ -149,12 +152,15 @@
     cursor: pointer;
 }
 
-.card-image a{
-    color: white;
-    background: var(--i);
-    background-size: cover;
+.card-hover:hover{
+   position:relative;
+  
+   background-image: url(save-P2.png);
+   z-index: 20;
+    
 }
 .card_small a:hover{
+    background-color: aqua;
     color: black;
     background: var(--i);
     background-size: cover;
